@@ -25,7 +25,8 @@ arry =[4,5,6,11,8,12,28,7]
 minimum =arry[0]
 
 for x in arry:
-    if x > minimum:
+    if x < minimum:
         minimum=x
-
+# nnn nnnnnnnn
+print("minimum =", minimum)
 print("minimum =", minimum)
